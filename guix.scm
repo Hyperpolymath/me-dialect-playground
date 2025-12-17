@@ -19,7 +19,7 @@
     (synopsis "Rust application")
     (description "Rust application - part of the RSR ecosystem.")
     (home-page "https://github.com/hyperpolymath/me-dialect-playground")
-    (license license:agpl3+)))
+    (license (list license:expat license:agpl3+))))
 
 ;; Return package for guix shell
 me_dialect_playground

@@ -53,7 +53,7 @@
           meta = with pkgs.lib; {
             description = "Compiler for My Language (Me, Solo, Duet, Ensemble)";
             homepage = "https://github.com/Hyperpolymath/me-dialect-playground";
-            license = with licenses; [ mit ];  # MIT + Palimpsest v0.8
+            license = with licenses; [ mit agpl3Plus ];  # Dual: MIT OR AGPL-3.0-or-later
             maintainers = [];
             platforms = platforms.all;
           };
